@@ -1,6 +1,6 @@
 {
 	"name": "sleeper-cli",
-	"description": "",
+	"description": "Zzzzzzzzzzz",
 	"main": "./lib/index.js",
 	"bin": {
 		"sleeper": "./lib/index.js"

@@ -28,38 +28,7 @@ program
 	);
 
 // > commands
-// away
-program
-	.command("away")
-	.alias("a")
-	.description("Make your computer stay awake for a specified amount of time")
-	.option("-s, --seconds <seconds>", "How many seconds to stay awake")
-	.option("-m, --minutes <minutes>", "How many minutes to stay awake")
-	.option("-hr, --hours <hours>", "How many hours to stay awake")
-	.action(({ seconds, minutes, hours }) => {
-		// parse args
-		if (seconds) {
-			seconds = parseInt(seconds);
-			if (typeof seconds !== "number") throw Error("Seconds is not a number!");
-		}
-		if (minutes) {
-			minutes = parseInt(minutes);
-			if (typeof minutes !== "number") throw Error("Minutes is not a number!");
-		}
-		if (hours) {
-			hours = parseInt(hours);
-			if (typeof hours !== "number") throw Error("Hours is not a number!");
-		}
-		// get that time
-		let time = 0;
-		if (seconds) time += parseInt(seconds);
-		if (minutes) time += parseInt(minutes) * 60;
-		if (hours) time += parseInt(hours) * 60 * 60;
-		// step away -> keel over -> die
-		away(time);
-	});
-
-// away
+// leave
 program
 	.command("leave")
 	.alias("l")

@@ -2,6 +2,12 @@
 
 A lazy script to keep your computer on while you are away or bored.
 
+## Installation
+
+```shell
+npm i -g sleeper-cli
+```
+
 ## Commands
 
 ### Leave
