@@ -1,0 +1,21 @@
+{
+	"name": "sleeper-cli",
+	"version": "0.0.1",
+	"description": "",
+	"main": "index.js",
+	"bin": {
+		"sleeper": "index.js"
+	},
+	"author": "O2Dependent",
+	"license": "ISC",
+	"dependencies": {
+		"chalk": "^4.1.2",
+		"clear": "^0.1.0",
+		"commander": "^8.3.0",
+		"date-fns": "^2.26.0",
+		"figlet": "^1.5.2",
+		"open": "^8.4.0",
+		"path": "^0.12.7",
+		"robotjs": "^0.6.0"
+	}
+}

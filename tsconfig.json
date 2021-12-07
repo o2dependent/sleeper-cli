@@ -1,0 +1,15 @@
+{
+	"compilerOptions": {
+		"target": "ESNext",
+		"module": "ESNext",
+		"lib": ["es6", "es2015", "dom", "ESNext"],
+		"declaration": true,
+		"outDir": "lib",
+		"rootDir": "src",
+		"strict": true,
+		"types": ["node"],
+		"esModuleInterop": true,
+		"moduleResolution": "Node"
+	},
+	"exclude": ["node_modules", "src/template", "lib"]
+}

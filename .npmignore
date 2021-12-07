@@ -1,0 +1,17 @@
+*.log
+.DS_Store
+.gitignore
+.gitlab-ci.yml
+.vscode/
+coverage/
+junit.xml
+node_modules/
+yarn.lock
+*.test.js
+*.test.js.map
+*.test.ts
+*.test.d.ts
+*.spec.js
+*.spec.js.map
+*.spec.ts
+*.spec.d.ts
