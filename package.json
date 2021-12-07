@@ -11,7 +11,7 @@
 		"build": "rollup -c",
 		"local": "yarn build && sudo npm i -g --force && sleeper",
 		"refresh": "rm -rf ./node_modules ./package-lock.json && npm install",
-		"npm:publish": "rm -rf lib && yarn build && cp npm-package.json ./lib/package.json && cp NPMREADME.md ./lib/README.md && cp LICENSE ./lib && echo \"npm publish\""
+		"npm:publish": "rm -rf lib && yarn build && cp npm-package.json ./lib/package.json && cp NPMREADME.md ./lib/README.md && cp LICENSE ./lib && npm publish ./lib"
 	},
 	"author": "",
 	"license": "ISC",
